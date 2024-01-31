@@ -1,6 +1,6 @@
 # TaskMaster: Interactive To-Do List Project in HTML, CSS, and JavaScript
 ![image](https://github.com/yash-shewalkar/TaskMaster--To-Do-list/assets/136376123/4bd4d92e-e162-4184-b871-32ffb0bddeff)
-  # 🚀 TaskMaster - Your Ultimate To-Do List Web App
+  # 🚀 TaskMaster - Your Ultimate To-Do List Webpage
 
 Welcome to TaskMaster, a sleek and feature-rich to-do list application that takes your task management to the next level!
 
