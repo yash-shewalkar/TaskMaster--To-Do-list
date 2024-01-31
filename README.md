@@ -10,6 +10,7 @@ Welcome to TaskMaster, a sleek and feature-rich to-do list application that take
 
 ➕ **Add, Delete, Complete:** Effortlessly add new tasks, remove ones you've conquered, and mark them as completed with just a click.
 
+🎉 **Attractive Intro with Typed.js:** Enjoy a captivating introduction when opening the web page or after reloading, thanks to the magic of Typed.js.
 ## How to Use
 
 1. 📋 Add a Task: Type in your new task and hit enter to add it to your to-do list.
