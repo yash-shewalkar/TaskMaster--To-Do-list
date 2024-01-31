@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YASH'S TODO LIST</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To do list!</h1>
+      <h1 id="element"></h1>
+      <div class="head">
+        <h2>
+          To do list
+          <img src="todo.png" alt="todo_icon" class="src" />
+        </h2>
+        <div class="task">
+          <input type="text" id="task_input" placeholder="Add new task..." />
+          <button class="addBtn" onclick="addIt()">Add</button>
+        </div>
+        <hr />
+        <ul id="list_content">
+          <!-- <li class="checked" >Task1</li>
+            <li>Task1</li>
+            <li>Task1</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["for your daily tasks. . ."],
+        typeSpeed: 60,
+      });
+    </script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

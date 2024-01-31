@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(
+    135deg,
+    rgb(10, 0, 77),
+    rgb(49, 0, 50),
+    rgb(63, 0, 0)
+  );
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 282px;
+}
+.container h1 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.container h2 img {
+  width: 50px;
+  margin: 0 15px;
+}
+.container h2 {
+  color: rgb(78, 52, 2);
+  display: flex;
+  align-items: center;
+  margin: 5px 20px;
+  padding: 7px;
+  text-decoration: underline;
+}
+.head {
+  width: 100%;
+  max-width: 500px;
+  background-color: lavender;
+  border-radius: 18px;
+  padding: 10px 30px 80px;
+  margin: 100px auto 30px;
+  box-shadow: 2px 15px 10px;
+}
+.task {
+  margin: 10px 20px;
+  margin-bottom: 40px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: lavenderblush;
+  border-radius: 30px;
+  box-shadow: 2px 3px 10px;
+}
+.task input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px 5px;
+}
+
+.task button {
+  border: none;
+  outline: none;
+  background: rgb(3, 142, 84);
+
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 0;
+  font-size: 17px;
+  cursor: pointer;
+}
+.task button:hover {
+  background: rgb(7, 111, 54);
+}
+hr {
+  border: 2px dotted rgb(142, 137, 137);
+}
+.head ul li {
+  list-style: none;
+  padding: 10px 40px 10px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+  margin: 7px auto;
+  background: lavenderblush;
+  border-radius: 40px;
+  box-shadow: 2px 3px 10px;
+}
+.head ul li:hover {
+  background: rgb(216, 209, 209);
+}
+.head ul li::before {
+  content: "";
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  background-image: url(uncheck.png);
+  background-size: cover;
+  background-position: center;
+  left: 5px;
+  top: 10px;
+}
+/* checked class CSS*/
+.head ul li.checked {
+  color: rgb(105, 104, 104);
+  text-decoration: line-through;
+  background: rgb(181, 248, 220);
+}
+.head ul li.checked::before {
+  background-image: url(check.png);
+}
+.head ul li span {
+  position: absolute;
+  right: 7px;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(1, 1, 1);
+  line-height: 40px;
+}
+.head ul li span:hover {
+  background: rgb(226, 156, 156);
+  border-radius: 50%;
+  box-shadow: 2px 3px 10px;
+}
